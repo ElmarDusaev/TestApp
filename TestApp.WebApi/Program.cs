@@ -21,8 +21,10 @@ namespace TestApp.WebApi
             using (var scope = host.Services.CreateScope())
             {
 
+
                 var context = scope.ServiceProvider.GetService<Context>();
                 //context.Database.Migrate();
+
 
             }
 
