@@ -30,7 +30,7 @@ namespace TestApp.WebApi.Controllers
         public IActionResult Get()
         {
 
-            return Ok("Hello world");
+            return Ok("Hello world 123 123");
             //return Ok(_productService.GetAll());
         }
 
